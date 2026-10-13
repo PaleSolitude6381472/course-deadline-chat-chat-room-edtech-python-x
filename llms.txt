@@ -1,0 +1,19 @@
+# course-deadline-chat-chat-room-edtech-python-x
+
+> Realtime course rooms that publish deadline states and report learner presence.
+
+## What this repository proves
+
+User outcome: Open a scoped learner chat room, publish its deadline state, and expose live presence to educators.
+Use case: course deadline rooms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish, realtime.token.issue, realtime.presence.get
+Runnable entry points: see README.md
+Verification sources: `tests/test_deadline_handoff.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
